@@ -1,0 +1,184 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+    height: 100vh;
+}
+.navbar-inverse {
+    background-color: grey;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 500;
+
+}
+.nav.navbar-nav.navbar-right {
+    margin: auto;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+    text-transform: uppercase;
+}
+.banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.carousel-caption {
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+.carousel-caption h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span {
+    color: black ;
+
+}
+.carousel-caption h3 span {
+    color: black ;}
+.carousel-caption a {
+    background: black;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-indicators .active {
+    background-color: black;
+    border-color: black;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        padding-bottom: 350px;
+    }
+    .carousel-caption h2 {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-caption {
+        padding-bottom: 120px;
+    }
+    .carousel-caption h2 {
+        font-size: 25px;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+    .carousel-caption a {
+        padding: 10px 25px;
+    }
+
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5rem 20rem 5rem;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8rem;
+        width: 100%;
+    }
+
+    .card {
+        width: 37rem;
+        height: 45rem;
+        box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .card-img-wrapper {
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        border-radius: 0.5rem;
+    }
+
+    .card-img-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+        border-radius: 0.5rem;
+        transition: opacity 0.3s;
+    }
+
+    .card:hover .card-img-wrapper img {
+        opacity: 0.5;
+    }
+
+    .card-info {
+        position: absolute;
+        bottom: 0;
+        padding: 2rem;
+        text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+
+    .card:hover .card-info {
+        bottom: 2rem;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .card-info h2 {
+        font-family: "Baloo Da 2", serif;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 300;
+        color: #eee;
+    }
+
+    .card-info h3 {
+        font-family: "Muli", serif;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #a52a2a;
+        margin-bottom: 1rem;
+    }
+
+    .card-info p {
+        font-family: "Baloo da 2", serif;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: 300;
+        color: #eee;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
