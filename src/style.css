@@ -2,9 +2,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
     background-color: grey;
     border-color: transparent;
@@ -17,6 +19,7 @@ header .carousel-inner .item {
     font-weight: 500;
 
 }
+
 .nav.navbar-nav.navbar-right {
     margin: auto;
 }
