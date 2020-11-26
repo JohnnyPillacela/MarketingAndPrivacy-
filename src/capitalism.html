@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -8,11 +6,22 @@
 
     <title> Marketing</title>
     <style>
+        #content h4 {
+            margin-top: 100px;
+            max-width: 960px;
+            text-align: -webkit-left;
+        }
+
         .foot {
             font-size: 20px;
             text-align: -webkit-center;
             margin-top: 40px;
             margin-bottom: 60px;
+        }
+
+        .titleImage {
+            max-width: 960px;
+            text-align: -webkit-left;
         }
 
         .imgContent {
@@ -21,18 +30,14 @@
             height: 30%;
         }
 
-        #content {
-            text-align: -webkit-left;
-        }
-
-        p {
+        section #content p {
             text-align: -webkit-left;
             max-width: 960px;
         }
 
-        li {
-            text-align: -webkit-center;
-
+        ul li {
+            text-align: -webkit-left;
+            max-width: 700px;
             list-style-position: inside;
         }
     </style>
@@ -46,9 +51,7 @@
 
 
 </head>
-
 <body style="background-color: aliceblue">
-
 <header>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <div class="container">
@@ -77,76 +80,72 @@
                     <li><a href="privacy.html" style="color: white">Privacy</a></li>
                     <li><a href="tracking.html" style="color: white">Online Tracking</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
+            </div>
         </div><!-- /.container-fluid -->
     </nav>
     <div class="img-center">
 
     </div>
     <div class="about">
-
     </div>
-    <section id="aboutus">
+    <section>
         <div id="content">
-            <h4> Capitalism</h4>
-            <div class="card" style="width: 50%; float: left; margin-left: 40px">
-                <img src="../image/shoshana.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
-                </div>
-            </div>
-
-
-            <p> CSS: Font Family, Selectors, Margin, Padding, Font Size, Line Height
-
-                HTML: Header, Footer, Main, P, Li , Menu
-
-                Design: Golden Ratio Font Calculator, Width Formula = square root of width,
-                double the result, subtract from the width, it will give you the correct
-                size of the content
-                that you want to use to keep the lines of text to 70 +- 5 characters per line.</p>
-
-
-            <p style="float: left; width: 40%; margin-left: 40px;"> CSS: Font Family, Selectors, Margin, Padding, Font
-                Size, Line Height
-
-                HTML: Header, Footer, Main, P, Li , Menu
-
-                Design: Golden Ratio Font Calculator, Width Formula = square root of width,
-                double the result, subtract from the width, it will give you the correct
-                size of the content
-                that you want to use to keep the lines of text to 70 +- 5 characters per line.</p>
-            <div class="card" style="width: 40%; float: right; margin-right: 40px">
-                <img src="../image/shoshana.jpg" class="card-img-top" alt="...">
-
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
-                </div>
-            </div>
-
-
-            <!-- p> CSS: Font Family, Selectors, Margin, Padding, Font Size, Line Height
-              HTML: Header, Footer, Main, P, Li , Menu
-              Design: Golden Ratio Font Calculator, Width Formula = square root of width,
-              double the result, subtract from the width, it will give you the correct
-              size of the content
-              that you want to use to keep the lines of text to 70 +- 5 characters per line.</p> -->
-
-            <img src="../image/fb.jpeg" style="margin-top: 20px;">
+            <h4>Survelliance </h4>
+            <p>Published by: Anxhela Mehmetaj</p>
+            <img class="titleImage" src="../image/fingerprint.jpg">
+            <p>
+                Everyone has fingerprints. It is what identifies you from other people because it is unique to you. You
+                know what also has fingerprints? Browsers! Well browsers don’t physically have fingers to have a
+                fingerprint but they collect your personal information and make a fingerprint out of you.
+                As most people know, websites that you visit online like Amazon, Tik Tok, and Instagram collect your
+                personal information to run ad campaigns based of off what you like. The type of personal information
+                that these websites collect from you can include:
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        </div>
+            <ul>
+                <li>What browser you’re using</li>
+                <li>Where and what time is it</li>
+                <li>How old you are</li>
+                <li>How long you spent looking at certain things on the website</li>
+            </ul>
+            <p>
+                But most of these things that they collect from you are very common things. Like you and your friend can
+                have the same age, live in the same area, browse the internet using the Google Chrome browser, and spend
+                looking at things almost the same amount of time. So how are marketers and advertises able to create a
+                fingerprint on you. After all, fingerprints are unique to everyone and since you and your friend are
+                very similar, that might be hard to distinguish online.
+            </p>
+            <p>
+                One of the tools that marketers and advertises use to collect your personal information is called
+                JavaScript. JavaScript is a programming language that runs code in the background of a website without
+                the user ever knowing about it. With JavaScript, websites can find the following information
+            </p>
+            <ul>
+                <li>Resolution of the screen</li>
+                <li>Orientation of the screen</li>
+                <li>Device type</li>
+                <li>Make and model of your device</li>
+                <li>Time zone</li>
+                <li>What plugins you have installed</li>
+                <li>Are you currently interacting with the site?</li>
+                <li>If you have Microsoft office installed in the browser</li>
+                <li>Can perform the font test (which identifies how your computer draws a specific letter)</li>
+            </ul>
+            <p>
+                Now, it is a combination of all these things that uniquely identify you. As you can see JavaScript is a
+                big supplier of all of this information which means if you disable JavaScript in your browser then the
+                website won’t be able to retrieve this information from you. However, disabling JavaScript in a browser
+                can severely alter how a website looks like and possibly break the website.
+                Overall, by identifying your age alone, a website doesn’t have any valuable information from you.
+                However, with all this information collectively websites, marketers, and advertisers can create a unique
+                fingerprint on you and save it so the next time you visit the same site they already know who you are.
+            </p>
 
         </div>
     </section>
-
-
 </header>
 
 </body>
+
 <footer class="foot">
     <div class="alert alert-primary" role="alert">
         <small>&copy; Copyright 2020, Anxhela Mehmetaj; Johnny Javier Pillacela</small>
