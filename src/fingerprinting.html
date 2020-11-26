@@ -7,14 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title> Marketing</title>
+    <style>
+        #content h4 {
+            margin-top: 100px;
+            max-width: 960px;
+            text-align: -webkit-left;
+        }
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+        .foot {
+            font-size: 20px;
+            text-align: -webkit-center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+        .titleImage {
+            max-width: 960px;
+            text-align: -webkit-left;
+        }
+
+        .imgContent {
+            align-content: center;
+            width: 30%;
+            height: 30%;
+        }
+
+        section #content p {
+            text-align: -webkit-left;
+            max-width: 960px;
+        }
+
+        ul li {
+            text-align: -webkit-left;
+            max-width: 700px;
+            list-style-position: inside;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+          rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="apps.css">
-
-
 
 
 </head>
@@ -25,56 +60,101 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"style="color: white">Marketing & Privacy </a>
+                <a class="navbar-brand" href="#" style="color: white">Marketing & Privacy </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" style="color: white" >Home</a></li>
-                    <li><a href="#" style="color: white">About </a></li>
-                    <li><a href="OnlineSecurity.html"style="color: white">Online security</a></li>
-                    <li><a href="capitalism.html"style="color: white">Surveillance</a></li>
-                    <li><a href="#"style="color: white">Fingerprinting</a></li>
-                    <li><a href="#"style="color: white">Facebook</a></li>
-                    <li><a href="#"style="color: white">Privacy</a></li>
-                    <li><a href="#"style="color: white">Online Tracking</a></li>
+                    <li><a href="index.html" style="color: white">Home</a></li>
+                    <li><a href="about.html" style="color: white">About </a></li>
+                    <li><a href="OnlineSecurity.html" style="color: white">Online security</a></li>
+                    <li><a href="capitalism.html" style="color: white">Surveillance</a></li>
+                    <li><a href="fingerprinting.html" style="color: white">Fingerprinting</a></li>
+                    <li><a href="facebook.html" style="color: white">Facebook</a></li>
+                    <li><a href="privacy.html" style="color: white">Privacy</a></li>
+                    <li><a href="tracking.html" style="color: white">Online Tracking</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <div class="img-center">
-        <img src="../image/image1.jpeg" width="1000" height="50"  >
-        <div class="center" style="color: white">Who are we</div>
 
     </div>
-    <div class="about" >
-        <h3> About us </h3>
+    <div class="about">
+
     </div>
-    <section id="aboutus">
-        <div id="content" >
-            <h1 class="grt">IS117</h1>
-            <p> THis is my homework 3 for is 117.</p>
-            <p> CSS: Font Family, Selectors, Margin, Padding, Font Size, Line Height
+    <section>
+        <div id="content">
+            <h4>Browser Fingerprinting</h4>
+            <p>Published by: Johnny Pillacela</p>
+            <img class="titleImage" src="../image/fingerprint.jpg">
 
-                HTML: Header, Footer, Main, P, Li , Menu
+            <p>
+                Everyone has fingerprints. It is what identifies you from other people because it is unique to you. You
+                know what also has fingerprints? Browsers! Well browsers don’t physically have fingers to have a
+                fingerprint but they collect your personal information and make a fingerprint out of you.
+                As most people know, websites that you visit online like Amazon, Tik Tok, and Instagram collect your
+                personal information to run ad campaigns based of off what you like. The type of personal information
+                that these websites collect from you can include:
+            </p>
+            <ul>
+                <li>What browser you’re using</li>
+                <li>Where and what time is it</li>
+                <li>How old you are</li>
+                <li>How long you spent looking at certain things on the website</li>
+            </ul>
+            <p>
+                But most of these things that they collect from you are very common things. Like you and your friend can
+                have the same age, live in the same area, browse the internet using the Google Chrome browser, and spend
+                looking at things almost the same amount of time. So how are marketers and advertises able to create a
+                fingerprint on you. After all, fingerprints are unique to everyone and since you and your friend are
+                very similar, that might be hard to distinguish online.
+            </p>
+            <p>
+                One of the tools that marketers and advertises use to collect your personal information is called
+                JavaScript. JavaScript is a programming language that runs code in the background of a website without
+                the user ever knowing about it. With JavaScript, websites can find the following information
+            </p>
+            <ul>
+                <li>Resolution of the screen</li>
+                <li>Orientation of the screen</li>
+                <li>Device type</li>
+                <li>Make and model of your device</li>
+                <li>Time zone</li>
+                <li>What plugins you have installed</li>
+                <li>Are you currently interacting with the site?</li>
+                <li>If you have Microsoft office installed in the browser</li>
+                <li>Can perform the font test (which identifies how your computer draws a specific letter)</li>
+            </ul>
+            <p>
+                Now, it is a combination of all these things that uniquely identify you. As you can see JavaScript is a
+                big supplier of all of this information which means if you disable JavaScript in your browser then the
+                website won’t be able to retrieve this information from you. However, disabling JavaScript in a browser
+                can severely alter how a website looks like and possibly break the website.
+                Overall, by identifying your age alone, a website doesn’t have any valuable information from you.
+                However, with all this information collectively websites, marketers, and advertisers can create a unique
+                fingerprint on you and save it so the next time you visit the same site they already know who you are.
+            </p>
 
-                Design: Golden Ratio Font Calculator, Width Formula = square root of width,
-                double the result, subtract from the width, it will give you the correct
-                size of the content
-                that you want to use to keep the lines of text to 70 +- 5 characters per line.</p>
         </div>
-
     </section>
 </header>
 
 </body>
+
+<footer class="foot">
+    <div class="alert alert-primary" role="alert">
+        <small>&copy; Copyright 2020, Anxhela Mehmetaj; Johnny Javier Pillacela</small>
+    </div>
+</footer>
 
 </html>
